@@ -36,4 +36,6 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true"></svg>
         </div>
       </section>
-    </>
+        </>
+      );
+    }
