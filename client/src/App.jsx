@@ -33,35 +33,7 @@ function App() {
 
       <section id="next-steps">
         <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-            import Navbar from './components/Navbar';
-            import Footer from './components/Footer';
-            import Home from './pages/Home';
-            import Problems from './pages/Problems';
-            import Solution from './pages/Solution';
-            import Team from './pages/Team';
-            import Contact from './pages/Contact';
-
-            function App() {
-              return (
-                <Router>
-                  <div className="flex flex-col min-h-screen">
-                    <Navbar />
-                    <main className="flex-1">
-                      <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/problems" element={<Problems />} />
-                        <Route path="/solution" element={<Solution />} />
-                        <Route path="/team" element={<Team />} />
-                        <Route path="/contact" element={<Contact />} />
-                      </Routes>
-                    </main>
-                    <Footer />
-                  </div>
-                </Router>
-              );
-            }
-
-            export default App;
-                  role="presentation"
+          <svg className="icon" role="presentation" aria-hidden="true"></svg>
+        </div>
+      </section>
+    </>
