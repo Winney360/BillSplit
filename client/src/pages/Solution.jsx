@@ -13,7 +13,7 @@ export default function Solution() {
         </div>
         {/* Right: Image placeholder */}
         <div className="flex-1 flex justify-center">
-          <div className="w-[350px] h-[220px] bg-gray-200 rounded-3xl shadow-lg flex items-center justify-center overflow-hidden">
+          <div className="w-87.5 h-55 bg-gray-200 rounded-3xl shadow-lg flex items-center justify-center overflow-hidden">
             {/* Place your solution image here */}
             <span className="text-gray-400 text-lg">[Solution Image]</span>
           </div>

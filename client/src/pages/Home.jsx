@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         {/* Right: Image placeholder */}
         <div className="flex-1 flex justify-center">
-          <div className="w-[350px] h-[350px] bg-gray-200 rounded-3xl shadow-lg flex items-center justify-center overflow-hidden">
+          <div className="w-87.5 h-87.5 bg-gray-200 rounded-3xl shadow-lg flex items-center justify-center overflow-hidden">
             {/* Place your hero image here */}
             <span className="text-gray-400 text-lg">[App Preview Image]</span>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* CTA Banner */}
-      <section className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl max-w-6xl mx-auto my-16 px-8 py-12 flex flex-col md:flex-row items-center justify-between shadow-lg">
+      <section className="bg-linear-to-r from-gray-900 to-gray-800 rounded-3xl max-w-6xl mx-auto my-16 px-8 py-12 flex flex-col md:flex-row items-center justify-between shadow-lg">
         <div className="mb-6 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Ready to end the money talk?</h2>
           <p className="text-gray-300 text-sm max-w-md">Join thousands of roommates splitting smarter every day. Set up your house in under 2 minutes.</p>
